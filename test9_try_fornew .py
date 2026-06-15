@@ -33,13 +33,13 @@ from libs.YbProtocol import YbProtocol
 from ybUtils.YbUart import YbUart
 
 # ================= 网络及业务配置参数区 =================
-MASTER_HOST = "myxiaxiais.art"
+# 填入你的目标上传网址
+MASTER_HOST = "aaa.art"  
 MASTER_PORT = 443
-WIFI_SSID = "happywaming"
-WIFI_PASS = "happywaming2026"
 
-'''WIFI_SSID = "Xiaomi 13 Pro"
-WIFI_PASS = "lmx20050625abc"'''
+#填入你的wifi名和wifi密码
+WIFI_SSID = "aaa"
+WIFI_PASS = "11111"
 
 SAVE_PATH = "/data/photo/"
 
