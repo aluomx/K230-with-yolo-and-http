@@ -34,10 +34,10 @@ from ybUtils.YbUart import YbUart
 
 # ================= 网络及业务配置参数区 =================
 # 填入你的目标上传网址
-MASTER_HOST = "aaa.art"  
+MASTER_HOST = "aaa.art"
 MASTER_PORT = 443
 
-#填入你的wifi名和wifi密码
+# 填入你的wifi名和wifi密码
 WIFI_SSID = "aaa"
 WIFI_PASS = "11111"
 

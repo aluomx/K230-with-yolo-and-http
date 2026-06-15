@@ -73,7 +73,9 @@
 ## 快速开始
 
 1. 将 `mp_deployment_source/` 目录拷贝至 K230 开发板的 `/sdcard/mp_deployment_source/`
-2. 修改 `test9_try_fornew .py` 中的 WiFi 账号密码和服务器地址
+2. 修改 `test9_try_fornew .py` 中的网络配置参数（`# ================= 网络及业务配置参数区 =================` 下方）：
+   - `MASTER_HOST` — 替换为目标上传服务器域名
+   - `WIFI_SSID` / `WIFI_PASS` — 替换为实际 WiFi 名称和密码
 3. 上电运行主程序即可进入 YOLO + 循迹模式
 4. 通过串口发送 `1` 进入拍照工作流
 
